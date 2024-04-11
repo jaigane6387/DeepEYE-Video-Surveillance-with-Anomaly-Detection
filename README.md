@@ -10,10 +10,6 @@ In this innovative project, we push the boundaries of deep neural networks by ex
 ├── Data 
 │   ├──Train
 │   ├── Test
-├── app
-│   ├── app.py
-│   ├── results
-│       ├── json_frames.json
 ├── Dockerfile
 ├── README.md
 ├── model
@@ -23,7 +19,10 @@ In this innovative project, we push the boundaries of deep neural networks by ex
 ├── train.py
 ├── test.py
 ├── requirements.txt
-├── results 
+├── results
+  ├── live.png
+  ├── test2_output.gif
+  ├── abornal_frames.json
 ```
 
 ### Dataset
@@ -67,6 +66,7 @@ python train.py
 ```bash
 python test.py
 ```
+<center></center><img src="results/test2_output.gif" alt="Test output"></center>
 
 ## Application setup
 If you want to directly view the working application, first we need to go through a couple of steps to set up and run the live application.
@@ -91,19 +91,19 @@ docker run -it --rm -p 5000:5000 myapp
 ## Output
 
 <!-- Example GIF -->
-<p align="center">
-  <img src="results/live.jpg" width="400">
-</p>
-<!-- Example Image -->
-![Anomaly Detection Result](results/test2_output.gif)
+<img src="results/live.png" width="1000">
 
 ## Tech Stack
 
-<div align="center">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" width="100" height="100"/>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" alt="TensorFlow" width="100" height="100"/>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg" alt="OpenCV" width="100" height="100"/>
+<div align="left">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" width="100" height="100" style="margin-right: 20px;"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" alt="TensorFlow" width="100" height="100" style="margin-right: 20px;"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg" alt="OpenCV" width="100" height="100" style="margin-right: 20px;"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg" alt="Docker" width="150" height="120" style="margin-right: 20px;"/>
+    <img src="https://tecnothink.com.br/wp-content/uploads/2020/11/Streamlit_Logo_1-768x401.jpg" alt="Streamlit" width="100" height="100" style="margin-right: 20px;"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg" alt="NumPy" width="100" height="100"/>
 </div>
+
 
 These technologies are the backbone of this project, providing powerful tools for Data Manipulation, Deep Learning, and Computer Vision tasks.
 
