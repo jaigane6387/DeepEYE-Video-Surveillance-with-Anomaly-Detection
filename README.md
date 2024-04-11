@@ -69,7 +69,7 @@ python test.py
 ```
 
 ## Application setup
-If you want to directly view the application working through API, first we need to go through a couple of steps to set up and run the live application.
+If you want to directly view the working application, first we need to go through a couple of steps to set up and run the live application.
 1. You need to install the Docker application and set up it accordingly. For reference, you can refer to this <a href="https://www.youtube.com/watch?v=Xuyt5U83qqA&list=PLZoTAELRMXVNKtpy0U_Mx9N26w8n0hIbs&index=4">video</a>
 
 2. Navigate to Repository
@@ -91,10 +91,11 @@ docker run -it --rm -p 5000:5000 myapp
 ## Output
 
 <!-- Example GIF -->
-![Anomaly Detection Example](output/anomaly_detection.gif)
-
+<p align="center">
+  <img src="results/live.jpg" width="400">
+</p>
 <!-- Example Image -->
-![Anomaly Detection Result](output/anomaly_detection_result.png)
+![Anomaly Detection Result](results/test2_output.gif)
 
 ## Tech Stack
 
