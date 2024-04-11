@@ -20,9 +20,9 @@ In this innovative project, we push the boundaries of deep neural networks by ex
 ├── test.py
 ├── requirements.txt
 ├── results
-  ├── live.png
-  ├── test2_output.gif
-  ├── abornal_frames.json
+    ├── live.png
+    ├── test2_output.gif
+    ├── abornal_frames.json
 ```
 
 ### Dataset
